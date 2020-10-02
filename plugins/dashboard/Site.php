@@ -42,7 +42,7 @@ class Site extends SiteModule
         $stats['pasienChart'] = $this->pasienChart(15);
 
         $page = [
-            'title' => 'Khanza LITE',
+            'title' => 'RSKG Habibie',
             'desc' => 'Sistem Informasi Rumah Sakit Indonesia 100% Gratis',
             'content' => $this->draw('dashboard.html', ['stats' => $stats])
         ];
