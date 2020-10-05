@@ -16,10 +16,17 @@ $( function() {
   });
 } );
 $(document).ready(function(){
+<<<<<<< HEAD
+    $('.display').DataTable({
+      "lengthChange": false,
+      "scrollX": true
+    });
+=======
   $('.display').DataTable({
     "language": { "search": "", "searchPlaceholder": "Search..." },
     "lengthChange": false,
     "scrollX": true,
     dom: "<<'data-table-title'><'datatable-search'f>><'row'<'col-sm-12'tr>><<'pmd-datatable-pagination' l i p>>"
   });
+>>>>>>> 6fafb8cba01cdc2b831277d6d68d9e496c0f02ad
 });
