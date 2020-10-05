@@ -6,10 +6,10 @@ if (!version_compare(PHP_VERSION, '5.5.0', '>=')) {
 ini_set('memory_limit', '-1');
 date_default_timezone_set('Asia/Jakarta');
 
-define('DBHOST', '192.168.55.181');
+define('DBHOST', '192.168.56.246');
 define('DBPORT', '3306');
-define('DBUSER', 'root');
-define('DBPASS', 'root');
+define('DBUSER', 'client');
+define('DBPASS', 'rskg');
 define('DBNAME', 'sik');
 
 // URL Webapps
